@@ -32,3 +32,9 @@ console.log(a + b + c);
 
 
 
+// addtiton
+
+var a = 102;
+var b = 320;
+
+console.log(a + b);
