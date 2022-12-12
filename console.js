@@ -38,3 +38,17 @@ var a = 102;
 var b = 320;
 
 console.log(a + b);
+
+// sub
+
+var a = 101;
+var b = 201;
+
+console.log(a - b);
+
+// multiply
+
+var a =12;
+var b = 22;
+
+console.log(a*b);
