@@ -75,3 +75,14 @@ var side3 = 7;
 var perimeter = (side1 + side2 + side3)/2;
 var area =  Math.sqrt(perimeter*((perimeter-side1)*(perimeter-side2)*(perimeter-side3)));
 console.log(area);
+
+// Write a JavaScript program to find 1st January is being a Sunday between 2014 and 2050.
+
+console.log('--------------------');
+for (var year = 2014; year <= 2050; year++)
+    {
+    var d = new Date(year, 0, 1);
+    if ( d.getDay() === 0 )
+        console.log("1st January is being a Sunday  "+year);
+    }
+console.log('--------------------');
