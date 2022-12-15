@@ -52,3 +52,10 @@ var a =12;
 var b = 22;
 
 console.log(a*b);
+
+// multiply
+
+var a =22;
+var b = 32;
+
+console.log(a*b);
