@@ -52,3 +52,7 @@ var a =12;
 var b = 22;
 
 console.log(a*b);
+
+var a = 12;
+var b = 3;
+console.log(a℅b);
