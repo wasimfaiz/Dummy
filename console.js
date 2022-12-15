@@ -59,3 +59,9 @@ var a =22;
 var b = 32;
 
 console.log(a*b);
+
+// divisions  
+
+const a = 14;
+const b = 2;
+console.log(a/b);
