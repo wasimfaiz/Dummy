@@ -58,3 +58,11 @@ console.log(every_nth([1, 2, 3, 4, 5, 6], 1));
 console.log(every_nth([1, 2, 3, 4, 5, 6], 2));
 console.log(every_nth([1, 2, 3, 4, 5, 6], 3));
 console.log(every_nth([1, 2, 3, 4, 5, 6], 4));
+
+
+// Write a JavaScript program to create a new array out of the two supplied by creating each possible pair from the arrays.
+
+const xProd = (a, b) => a.reduce((acc, x) => acc.concat(b.map(y => [x, y])), []);
+console.log(xProd([1, 2], ['a', 'b']));
+console.log(xProd([1, 2], [1, 2]));
+console.log(xProd(['a', 'b'], ['a', 'b']));
