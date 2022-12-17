@@ -80,3 +80,11 @@ console.log(to_Safe_Integer(Infinity));
 const tail = arr => (arr.length > 1 ? arr.slice(1) : arr);
 console.log(tail([1, 2, 3])); 
 console.log(tail([1]));
+
+// Write a JavaScript program to get a random integer in the specified range.
+
+const randomIntegerInRange = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
+console.log(randomIntegerInRange(0, 5));
+console.log(randomIntegerInRange(2, 5));
+console.log(randomIntegerInRange(5, -5));
+console.log(randomIntegerInRange(-2, -7));
