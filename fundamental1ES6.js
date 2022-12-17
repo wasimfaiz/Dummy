@@ -88,3 +88,12 @@ console.log(randomIntegerInRange(0, 5));
 console.log(randomIntegerInRange(2, 5));
 console.log(randomIntegerInRange(5, -5));
 console.log(randomIntegerInRange(-2, -7));
+
+// Write a JavaScript program to run a given array of promises in series.
+
+const runPromisesInSeries = ps => ps.reduce((p, next) => p.then(next), Promise.resolve());
+const delay = d => new Promise(r => setTimeout(r, d));
+
+// Executes each promise sequentially, taking a total of 3 seconds to complete
+
+runPromisesInSeries([() => delay(1000), () => delay(2000)]);
