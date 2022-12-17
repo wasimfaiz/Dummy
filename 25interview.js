@@ -30,3 +30,7 @@ var reverseEachWord = reverseBySeparator(reverseEntireSentence, " ");
 function reverseBySeparator(string, separator) {
   return string.split(separator).reverse().join(separator);
 }
+
+// How to check if an object is an array or not? Provide some code.
+
+var arrayList = [1 , 2, 3];
