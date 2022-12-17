@@ -97,3 +97,8 @@ const delay = d => new Promise(r => setTimeout(r, d));
 // Executes each promise sequentially, taking a total of 3 seconds to complete
 
 runPromisesInSeries([() => delay(1000), () => delay(2000)]);
+
+// Write a JavaScript program to get a random element from an array.
+
+const sample = arr => arr[Math.floor(Math.random() * arr.length)];
+console.log(sample([3, 7, 9, 11]));
