@@ -34,3 +34,12 @@ function reverseBySeparator(string, separator) {
 // How to check if an object is an array or not? Provide some code.
 
 var arrayList = [1 , 2, 3];
+
+
+function greet(param) {
+  if() {
+    // here have to check whether param is array or not
+  }
+  else {
+  }
+}
