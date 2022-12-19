@@ -30,3 +30,5 @@ var reverseEachWord = reverseBySeparator(reverseEntireSentence, " ");
 function reverseBySeparator(string, separator) {
   return string.split(separator).reverse().join(separator);
 }
+
+//Write a "mul" function which will properly when invoked as below syntax
