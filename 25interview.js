@@ -86,3 +86,5 @@ function isAnagram(first, second) {
 
   return a === b;
 }
+
+//How would you use a closure to create a private counter?
