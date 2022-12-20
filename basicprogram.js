@@ -27,13 +27,19 @@ console.log('The sum of ' + num1 + ' and ' + num2 + ' is: ' + sum);
 // Example 2: Add Two Numbers Entered by the User
 
 // store input numbers
-const num1 = parseInt(prompt('Enter the first number '));
-const num2 = parseInt(prompt('Enter the second number '));
+const num3 = parseInt(prompt('Enter the first number '));
+const num4 = parseInt(prompt('Enter the second number '));
 
 //add two numbers
-const sum = num1 + num2;
+const sum1 = num1 + num2;
 
 // display the sum
 console.log(`The sum of ${num1} and ${num2} is ${sum}`);
 
 // Example: Square Root of a Number
+
+// take the input from the user
+const number = prompt('Enter the number: ');
+
+const result = Math.sqrt(number);
+console.log(`The square root of ${number} is ${result}`);
