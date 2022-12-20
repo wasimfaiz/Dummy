@@ -57,3 +57,6 @@ const result3 = Math.sqrt(number3);
 console.log(`The square root of ${number1} is ${result1}`);
 console.log(`The square root of ${number2} is ${result2}`);
 console.log(`The square root of ${number3} is ${result3}`);
+
+// Example 1: Area When Base and Height is Known
+
