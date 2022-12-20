@@ -31,15 +31,14 @@ function reverseBySeparator(string, separator) {
   return string.split(separator).reverse().join(separator);
 }
 
-// How to check if an object is an array or not? Provide some code.
+// How would you check if a number is an integer?
 
-var arrayList = [1 , 2, 3];
+// A very simply way to check if a number is a decimal or integer is to see if there is a remainder left when you divide by 1.
 
-
-function greet(param) {
-  if() {
-    // here have to check whether param is array or not
-  }
-  else {
-  }
+function isInt(num) {
+  return num % 1 === 0;
 }
+
+console.log(isInt(4)); // true
+console.log(isInt(12.2)); // false
+console.log(isInt(0.3)); // false
