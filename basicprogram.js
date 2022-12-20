@@ -107,3 +107,5 @@ b = temp;
 
 console.log(`The value of a after swapping: ${a}`);
 console.log(`The value of b after swapping: ${b}`);
+
+// Example: Roots of a Quadratic Equation
