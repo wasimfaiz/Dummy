@@ -10,3 +10,5 @@ alert("Hello, World!");
 
 // 3. Using document.write()
 
+// the hello world program
+document.write('Hello, World!');
