@@ -69,3 +69,5 @@ const areaValue = (baseValue * heightValue) / 2;
 console.log(
   `The area of the triangle is ${areaValue}`
 );
+
+// Example 2: Area When All Sides are Known
