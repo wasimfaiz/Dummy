@@ -7,3 +7,6 @@ console.log('Hello World');
 
 // the hello world program
 alert("Hello, World!");
+
+// 3. Using document.write()
+
