@@ -64,10 +64,10 @@ const baseValue = prompt('Enter the base of a triangle: ');
 const heightValue = prompt('Enter the height of a triangle: ');
 
 // calculate the area
-const areaValue = (baseValue * heightValue) / 2;
+const areasValue = (baseValue * heightValue) / 2;
 
 console.log(
-  `The area of the triangle is ${areaValue}`
+  `The area of the triangle is ${areasValue}`
 );
 
 // Example 2: Area When All Sides are Known
