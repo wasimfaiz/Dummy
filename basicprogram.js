@@ -89,3 +89,5 @@ const areaValue = Math.sqrt(
 console.log(
   `The area of the triangle is ${areaValue}`
 );
+
+// Example 1: Using a Temporary Variable
