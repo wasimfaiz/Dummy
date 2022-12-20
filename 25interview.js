@@ -31,7 +31,11 @@ function reverseBySeparator(string, separator) {
   return string.split(separator).reverse().join(separator);
 }
 
+
 // How would you check if a number is an integer?
+
+//  How would you check if a number is an integer?
+
 
 // A very simply way to check if a number is a decimal or integer is to see if there is a remainder left when you divide by 1.
 
@@ -42,3 +46,91 @@ function isInt(num) {
 console.log(isInt(4)); // true
 console.log(isInt(12.2)); // false
 console.log(isInt(0.3)); // false
+
+
+//  Implement enqueue and dequeue using only two stacks
+
+var inputStack = []; // First stack
+var outputStack = []; // Second stack
+
+// For enqueue, just push the item into the first stack
+function enqueue(stackInput, item) {
+  return stackInput.push(item);
+}
+
+function dequeue(stackInput, stackOutput) {
+  // Reverse the stack such that the first element of the output stack is the
+  // last element of the input stack. After that, pop the top of the output to
+  // get the first element that was ever pushed into the input stack
+  if (stackOutput.length <= 0) {
+    while(stackInput.length > 0) {
+      var elementToOutput = stackInput.pop();
+      stackOutput.push(elementToOutput);
+    }
+  }
+
+  return stackOutput.pop();
+}
+
+
+//  Given two strings, return true if they are anagrams of one another
+
+var firstWord = "Mary";
+var secondWord = "Army";
+
+isAnagram(firstWord, secondWord); // true
+
+function isAnagram(first, second) {
+  // For case insensitivity, change both words to lowercase.
+  var a = first.toLowerCase();
+  var b = second.toLowerCase();
+
+  // Sort the strings, and join the resulting array to a string. Compare the results
+  a = a.split("").sort().join("");
+  b = b.split("").sort().join("");
+
+  return a === b;
+}
+
+//How would you use a closure to create a private counter?
+
+function counter() {
+  var _counter = 0;
+  // return an object with several functions that allow you
+  // to modify the private _counter variable
+  return {
+    add: function(increment) { _counter += increment; },
+    retrieve: function() { return 'The counter is currently at: ' + _counter; }
+  }
+}
+
+// error if we try to access the private variable like below
+// _counter;
+
+// usage of our counter function
+var c = counter();
+c.add(5); 
+c.add(9); 
+
+// now we can access the private variable in the following way
+c.retrieve(); // => The counter is currently at: 14
+
+//Given two strings, return true if they are anagrams of one another
+
+var firstWord = "Mary";
+var secondWord = "Army";
+
+isAnagram(firstWord, secondWord); // true
+
+function isAnagram(first, second) {
+  // For case insensitivity, change both words to lowercase.
+  var a = first.toLowerCase();
+  var b = second.toLowerCase();
+
+  // Sort the strings, and join the resulting array to a string. Compare the results
+  a = a.split("").sort().join("");
+  b = b.split("").sort().join("");
+
+  return a === b;
+}
+
