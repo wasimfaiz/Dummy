@@ -12,3 +12,5 @@ alert("Hello, World!");
 
 // the hello world program
 document.write('Hello, World!');
+
+// Example 1: Add Two Numbers
