@@ -148,3 +148,5 @@ else {
     `The roots of quadratic equation are ${realPart} + ${imagPart}i and ${realPart} - ${imagPart}i`
   );
 }
+
+//Example 1: Kilometers to Miles
