@@ -193,3 +193,13 @@ else {
 }
 
 // Example 2: Using Ternary Operator
+
+// program to check if the number is even or odd
+// take input from the user
+const numm = prompt("Enter a number: ");
+
+// ternary operator
+const res = (numm % 2  == 0) ? "even" : "odd";
+
+// display the result
+console.log(`The number is ${res}.`);
