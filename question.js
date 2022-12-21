@@ -102,3 +102,7 @@ for (var year = 2014; year <= 2050; year++)
 console.log('--------------------');
 
 // Example 1: Generate a Random Number
+
+// generating  a random number
+const a = Math.random();
+console.log(a);
