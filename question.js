@@ -190,3 +190,5 @@ else {
 
 // display the result
 console.log("The largest number is " + largest);
+
+//Example2: Using Math.max()
