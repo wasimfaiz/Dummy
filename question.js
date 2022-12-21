@@ -106,3 +106,5 @@ console.log('--------------------');
 // generating  a random number
 const a = Math.random();
 console.log(a);
+
+// Example 2: Get a Random Number between 1 and 10
