@@ -191,3 +191,5 @@ if(number % 2 == 0) {
 else {
     console.log("The number is odd.");
 }
+
+// Example 2: Using Ternary Operator
