@@ -112,3 +112,5 @@ console.log(a);
 // generating a random number
 const a = Math.random() * (10-1) + 1
 console.log(`Random value between 1 and 10 is ${a}`);
+
+// Example 3: Integer Value between 1 and 10
