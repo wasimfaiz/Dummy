@@ -250,3 +250,5 @@ const lowerNumber = parseInt(prompt('Enter lower number: '));
 const higherNumber = parseInt(prompt('Enter higher number: '));
 
 console.log(`The prime numbers between ${lowerNumber} and ${higherNumber} are:`);
+
+// looping from lowerNumber to higherNumber
