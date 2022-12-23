@@ -205,6 +205,7 @@ const res = (numm % 2  == 0) ? "even" : "odd";
 // display the result
 console.log(`The number is ${res}.`);
 
+// Example: Check Prime Number
 
 // program to check if a number is prime or not
 
