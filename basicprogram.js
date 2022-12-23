@@ -245,3 +245,5 @@ else {
 
 // program to print prime numbers between the two numbers
 // take input from the user
+
+const lowerNumber = parseInt(prompt('Enter lower number: '));
