@@ -256,5 +256,12 @@ console.log(`The prime numbers between ${lowerNumber} and ${higherNumber} are:`)
 for (let i = lowerNumber; i <= higherNumber; i++) {
     let flag = 0;
 
-    
+    // looping through 2 to user input number
+    for (let j = 2; j < i; j++) {
+        if (i % j == 0) {
+            flag = 1;
+            break;
+        }
+    }
+
 }
