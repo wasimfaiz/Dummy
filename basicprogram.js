@@ -242,3 +242,5 @@ else {
 }
 
 // Example: Print Prime Numbers
+
+// program to print prime numbers between the two numbers
