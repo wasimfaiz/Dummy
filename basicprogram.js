@@ -254,5 +254,7 @@ console.log(`The prime numbers between ${lowerNumber} and ${higherNumber} are:`)
 // looping from lowerNumber to higherNumber
 
 for (let i = lowerNumber; i <= higherNumber; i++) {
-   
+    let flag = 0;
+
+    
 }
