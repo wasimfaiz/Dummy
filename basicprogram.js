@@ -247,3 +247,4 @@ else {
 // take input from the user
 
 const lowerNumber = parseInt(prompt('Enter lower number: '));
+const higherNumber = parseInt(prompt('Enter higher number: '));
