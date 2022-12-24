@@ -32,7 +32,7 @@ const num3 = parseInt(prompt('Enter the first number '));
 const num4 = parseInt(prompt('Enter the second number '));
 
 //add two numbers
-const sum1 = num1 + num2;
+const sum1 = num1 - num2;
 
 // display the sum
 console.log(`The sum of ${num1} and ${num2} is ${sum}`);
