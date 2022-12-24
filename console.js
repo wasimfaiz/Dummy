@@ -87,3 +87,6 @@ function vowel_Count(str)
 
 console.log(vowel_Count("Python"));
 console.log(vowel_Count("w3resource.com"));
+
+
+//Example 1: Sum of Natural Numbers Using for Loop
