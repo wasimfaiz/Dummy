@@ -43,7 +43,7 @@ const num2 = 3;
 
 // subtract two numbers
 
-const sub = num1 + num2;
+const sub = num1 - num2;
 
 
 
