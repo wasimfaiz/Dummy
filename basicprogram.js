@@ -40,6 +40,8 @@ console.log(`The sum of ${num1} and ${num2} is ${sum}`);
 
 // Example 1: subtract Two Numbers
 
+const num1 = 5;
+
 // Example: Square Root of a Number
 
 // take the input from the user
