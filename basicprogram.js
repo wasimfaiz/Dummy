@@ -41,7 +41,7 @@ console.log(`The sum of ${num1} and ${num2} is ${sum}`);
 const num1 = 5;
 const num2 = 3;
 
-// subtract numbers
+// subtract two numbers
 
 
 
