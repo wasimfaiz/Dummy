@@ -42,7 +42,7 @@ const num1 = 5;
 const num2 = 3;
 
 //add subtract numbers
-const sum1 = num1 - num2;
+
 
 
 
