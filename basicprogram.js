@@ -45,7 +45,6 @@ const num2 = 3;
 const sum1 = num1 - num2;
 
 
-// add two numbers
 
 
 // Example: Square Root of a Number
