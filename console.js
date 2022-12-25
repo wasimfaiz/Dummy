@@ -33,6 +33,7 @@ var a = 12;
 var b = 12; 
 var c = 12;
 
+//Addition 
 console.log(a + b); 
 
 console.log(a - b); 
