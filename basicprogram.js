@@ -45,7 +45,7 @@ const num2 = 3;
 
 const sub = num1 - num2;
 
-// display the sum
+// display the subtract 
 console.log('The sum of ' + num1 + ' and ' + num2 + ' is: ' + sum);
 
 
