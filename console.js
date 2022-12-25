@@ -48,6 +48,7 @@ console.log(a / b);
 // Add three numbers 
 console.log(a + b + c); 
 
+// Subtract three numbers 
 
 
 // addtiton
