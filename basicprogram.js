@@ -46,7 +46,7 @@ const num2 = 3;
 const sub = num1 - num2;
 
 // display the subtract 
-console.log('The sum of ' + num1 + ' and ' + num2 + ' is: ' + sum);
+console.log('The subtraction of ' + num1 + ' and ' + num2 + ' is: ' + sum);
 
 
 // Example: Square Root of a Number
