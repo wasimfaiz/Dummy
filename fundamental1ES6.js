@@ -1,6 +1,6 @@
 // Write a JavaScript program to compare two objects to determine if the first one contains equivalent property 
 // values to the second one.
-// values to the 
+// values to 
 
 // Use Object.keys() to get all the keys of the second object.
 // Use Array.prototype.every(), Object.prototype.hasOwnProperty() and strict comparison to determine if all keys exist in the first object and have the same values.
