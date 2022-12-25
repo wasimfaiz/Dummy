@@ -42,6 +42,7 @@ console.log(a - b);
 //Multiply 
 console.log(a * b); 
 
+//Division 
 console.log(a / b); 
 
 console.log(a + b + c); 
