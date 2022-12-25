@@ -39,6 +39,7 @@ console.log(a + b);
 //Subtraction 
 console.log(a - b); 
 
+//Multiply 
 console.log(a * b); 
 
 console.log(a / b); 
