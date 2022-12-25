@@ -1,4 +1,4 @@
-// Write a JavaScript function to find the area of a triangle where lengths of the three of its sides are 5,6 and 7.
+// Write a JavaScript function to find the area of a triangle where lengths of the three of its sides are 5,6 and 7.?
 
 var side1 = 5; 
 var side2 = 6; 
