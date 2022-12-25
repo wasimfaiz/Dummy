@@ -52,6 +52,7 @@ console.log(a + b + c);
 console.log(a - b - c); 
 
 // Multiply three numbers
+console.log(a * b * c); 
 
 // addtiton
 
