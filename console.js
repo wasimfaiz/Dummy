@@ -36,6 +36,7 @@ var c = 12;
 //Addition 
 console.log(a + b); 
 
+//Subtraction 
 console.log(a - b); 
 
 console.log(a * b); 
