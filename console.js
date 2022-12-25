@@ -51,6 +51,8 @@ console.log(a + b + c);
 // Subtract three numbers 
 console.log(a - b - c); 
 
+// Multiply three numbers
+
 // addtiton
 
 var a = 102;
