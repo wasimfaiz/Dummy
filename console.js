@@ -45,6 +45,7 @@ console.log(a * b);
 //Division 
 console.log(a / b); 
 
+// Add three numbers 
 console.log(a + b + c); 
 
 
