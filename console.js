@@ -49,7 +49,7 @@ console.log(a / b);
 console.log(a + b + c); 
 
 // Subtract three numbers 
-
+console.log(a - b - c); 
 
 // addtiton
 
