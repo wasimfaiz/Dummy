@@ -80,7 +80,7 @@ console.log(a*b);
 var a =22;
 var b = 32;
 
-console.log(a*b);
+console.log(a * b);
 
 // divisions  
 
