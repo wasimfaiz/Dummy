@@ -73,7 +73,7 @@ console.log(a - b);
 var a =12;
 var b = 22;
 
-console.log(a*b);
+console.log(a *b );
 
 // multiply
 
