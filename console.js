@@ -86,7 +86,7 @@ console.log(a * b);
 
 const a = 14;
 const b = 2;
-console.log(a/b);
+console.log(a / b);
 
 //Write a JavaScript program to count the number of vowels in a given string.
 
