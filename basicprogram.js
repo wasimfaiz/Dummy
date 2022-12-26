@@ -279,3 +279,6 @@ for (let i = lowerNumber; i <= higherNumber; i++) {
         console.log(i);
     }
 }
+
+//Example: Convert Date to Number
+
