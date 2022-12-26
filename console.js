@@ -79,8 +79,9 @@ console.log(a * b);
 
 var a =22;
 var b = 32;
+var c = 43
 
-console.log(a * b);
+console.log(a * b * c);
 
 // divisions  
 
