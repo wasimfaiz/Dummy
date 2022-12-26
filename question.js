@@ -131,7 +131,7 @@ const a = Math.floor(Math.random() * (max - min + 1)) + min;
 // display a random number
 console.log(`Random value between ${min} and ${max} is ${a}`);
 
-//Example: Check Prime Number
+//Example1: Check Prime Number 
 
 // program to check if a number is prime or not
 
