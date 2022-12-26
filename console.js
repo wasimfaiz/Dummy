@@ -61,7 +61,7 @@ var b = 320;
 
 console.log(a + b);
 
-// sub
+// subtraction 
 
 var a = 101;
 var b = 201;
