@@ -21,6 +21,7 @@ const num2 = 3;
 // add two numbers
 const sum = num1 + num2;
 
+
 // display the sum
 console.log('The sum of ' + num1 + ' and ' + num2 + ' is: ' + sum);
 
@@ -30,11 +31,20 @@ console.log('The sum of ' + num1 + ' and ' + num2 + ' is: ' + sum);
 const num3 = parseInt(prompt('Enter the first number '));
 const num4 = parseInt(prompt('Enter the second number '));
 
-//add two numbers
-const sum1 = num1 + num2;
 
 // display the sum
 console.log(`The sum of ${num1} and ${num2} is ${sum}`);
+
+
+// Example 1: subtract Two Numbers
+
+const num1 = 5;
+const num2 = 3;
+
+// subtract two numbers
+
+const sub = num1 - num2;
+
 
 // Example: Square Root of a Number
 
@@ -269,3 +279,15 @@ for (let i = lowerNumber; i <= higherNumber; i++) {
         console.log(i);
     }
 }
+
+//Example: Convert Date to Number
+
+// program to convert date to number
+// create date
+const d1 = new Date();
+console.log(d1);
+
+// converting to number
+const result = d1.getTime();
+console.log(result);
+
