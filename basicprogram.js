@@ -289,5 +289,5 @@ console.log(d1);
 
 // converting to number
 const results = d1.getTime();
-console.log(result);
+console.log(results);
 
