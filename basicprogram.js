@@ -49,7 +49,7 @@ const sub = num1 - num2;
 // Example: Square Root of a Number
 
 // take the input from the user
-const number = prompt('Enter the number: ');
+const numberr = prompt('Enter the number: ');
 
 const result = Math.sqrt(number);
 console.log(`The square root of ${number} is ${result}`);
