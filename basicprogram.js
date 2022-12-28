@@ -43,7 +43,7 @@ const numb2 = 3;
 
 // subtract two numbers
 
-const sub = num1 - num2;
+const sub = numb1 - numb2;
 
 
 // Example: Square Root of a Number
