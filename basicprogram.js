@@ -51,8 +51,8 @@ const sub = num1 - num2;
 // take the input from the user
 const numberr = prompt('Enter the number: ');
 
-const result = Math.sqrt(number);
-console.log(`The square root of ${number} is ${result}`);
+const result = Math.sqrt(numberr);
+console.log(`The square root of ${numberr} is ${result}`);
 
 // Example 2: Square Root of Different Data Types
 
