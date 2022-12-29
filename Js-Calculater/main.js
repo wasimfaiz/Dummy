@@ -1,3 +1,5 @@
+// js file for manipulation DOM
+
 "use strict";
 
 const input = document.querySelector(".input");
